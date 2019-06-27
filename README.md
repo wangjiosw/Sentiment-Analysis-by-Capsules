@@ -8,10 +8,6 @@ A pytorch implemention of "Sentiment Analysis by Capsules"
 - nltk
 - spacy
 
-# Get nlp_pre function
-```bash
-git clone https://github.com/wangjiosw/nlp_pre
-```
 # Get Movie Review Data
 ```bash
 bash download.sh
@@ -22,5 +18,12 @@ bash download.sh
 python pre.py
 ``` 
 
-# still have problem
-not completed yet
+# train
+```python
+python Train.py
+```
+
+# result 
+best accuracy: 71.04%
+
+# not completed yet

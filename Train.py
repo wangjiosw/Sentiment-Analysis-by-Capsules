@@ -59,6 +59,6 @@ if __name__ == "__main__":
     print(model)
     model.to(DEVICE)
 
-    train(train_iter, val_iter, test_iter, model, runModel, n_epoch=30, lr=0.0001)
+    train(train_iter, val_iter, test_iter, model, runModel, n_epoch=30, lr=0.00001)
 
 
