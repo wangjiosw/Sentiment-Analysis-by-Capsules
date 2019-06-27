@@ -8,6 +8,11 @@ A pytorch implemention of "Sentiment Analysis by Capsules"
 - nltk
 - spacy
 
+# Download project
+```bash
+git clone https://github.com/wangjiosw/Sentiment-Analysis-by-Capsules.git
+cd Sentiment-Analysis-by-Capsules
+```
 # Get Movie Review Data
 ```bash
 bash download.sh
