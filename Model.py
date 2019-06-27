@@ -22,7 +22,7 @@ class RNNCapsule(nn.Module):
         alpha = F.softmax(e, 1)
         alpha = alpha.unsqueeze(3)
         x = x.unsqueeze(2)
-        v_c = (alpha*x).sum(1)
+        v_c = torch.matmul(alpha, x).sum(1)
         p = F.tanh(self.linear(v_c))
         r_s = p*v_c
 
